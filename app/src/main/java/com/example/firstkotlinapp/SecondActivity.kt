@@ -10,7 +10,7 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val userName = intent.getStringExtra("name")
+        val userName = intent.getStringExtra("userName")
         val password = intent.getStringExtra("password")
 
         val message = "userName: $userName \npassword: $password"
